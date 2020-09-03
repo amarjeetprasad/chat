@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(#fff,rgb(142, 255, 176));
+
+}
+nav{
+    display: block;
+   text-align: center;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+}
+.container{
+   display: block;
+   margin:  auto;
+    width: 600px;
+    background-color: brown;
+    height: 50vh;
+    overflow-y: auto;
+    border: 2px solid rgb(61, 59, 59);
+    border-radius: 8px;
+
+}
+.msg{
+    width:200px;
+    background-color: gray;
+    margin: 10px 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.left{
+    display: block;
+    float: left;
+    clear: both;
+}
+.right{
+    display: block;
+    float: right;
+    clear: both;
+}
+
+form{
+    margin-bottom:300px ;
+    display: flex;
+    justify-content: center;
+}
+form input{
+    width: 540px;
+    margin-top:10px;
+    height: 30px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    overflow: hidden;
+}
+form button{
+    height: 30px;
+    background-color: rgb(71, 71, 233);
+    color: #fff;
+    cursor: pointer;
+    margin:10px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+@media(max-width:)
